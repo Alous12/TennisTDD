@@ -22,7 +22,11 @@ class TennisScorer {
                     return "40 - Love";
                 }
             }
+        }
 
+        if (this.player2Points === 1)
+        {
+            return "Love - 15";
         }
             return "Love - Love";
     }
