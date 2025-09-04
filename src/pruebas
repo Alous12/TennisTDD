@@ -1,0 +1,12 @@
+Caso 1: Jugador A marca un punto → marcador: 15-0
+Caso 2: Jugador B marca un punto → marcador: 0-15
+Caso 3: Ambos marcan un punto alternadamente → marcador: 15-15
+Caso 4: Jugador A marca dos puntos seguidos → marcador: 30-0
+Caso 5: Jugador B marca tres puntos seguidos → marcador: 0-40
+Caso 6: Marcador nunca llega a deuce y Gana A o B, 
+Caso 7: Ambos llegan a 40 → marcador: 40-40 (deuce)
+Caso 8: Después de deuce, jugador A marca un punto → marcador: Advantage A
+Caso 9: Después de advantage, jugador B marca un punto → marcador: deuce
+Caso 10: Jugador A marca dos puntos seguidos después de deuce → marcador: gana A
+Caso 11: Jugador B marca dos puntos seguidos después de deuce → marcador: gana B
+Caso 12: Secuencia alternada de puntos que lleva varias veces a deuce y advantage
