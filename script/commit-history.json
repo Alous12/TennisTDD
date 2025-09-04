@@ -19,12 +19,12 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "5ce317ac253839265b528aa4ba4b32bf4e27daaa",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-04T11:27:06.000Z",
       "message": "feat: agregar marcador en 0 de ambos (Love - Love)",
-      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+      "url": "https://github.com/Alous12/TennisTDD/commit/5ce317ac253839265b528aa4ba4b32bf4e27daaa"
     },
     "stats": {
       "total": 40,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-04T11:38:55.000Z",
+      "message": "feat: agregar clase que permita controlar los puntos del jugador 1",
+      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 31,
+      "deletions": 7,
+      "date": "2025-09-04"
+    },
+    "coverage": 85.71,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
