@@ -103,4 +103,17 @@ describe("Tennis Score", () => {
     expect(tennisScorer.showScore()).toEqual("Player 1 wins");
   });
 
+  it("Deberia mostrar el marcador Player 2 wins cuando el jugador 2 anota dos puntos despues de Deuce", () => {
+    const tennisScorer = new TennisScorer();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    expect(tennisScorer.showScore()).toEqual("Player 2 wins");
+  });
+
 });

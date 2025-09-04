@@ -23,6 +23,12 @@ class TennisScorer {
             }
             else 
             {
+                if(this.player2Points - this.player1Points === 2)
+                {
+                result = "Player 2 wins";
+                }
+                else
+                {
                     if (this.player1Points > this.player2Points)
                     {
                         result = "Advantage Player 1";
@@ -31,6 +37,7 @@ class TennisScorer {
                     {
                         result = "Advantage Player 2";
                     }
+                }
             }
             
         }
