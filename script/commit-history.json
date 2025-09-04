@@ -228,17 +228,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aa37267be002bf4477fe9842075931bac7212c6e",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-04T12:27:59.000Z",
       "message": "feat: agregar condicion en caso de que player 2 gane despues de marcar 2 puntos despues de deuce",
-      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+      "url": "https://github.com/Alous12/TennisTDD/commit/aa37267be002bf4477fe9842075931bac7212c6e"
     },
     "stats": {
       "total": 20,
       "additions": 20,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-04T12:33:52.000Z",
+      "message": "feat: agregar contenido al html y presenter para lograr interactuar en una web",
+      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 59,
+      "additions": 37,
+      "deletions": 22,
       "date": "2025-09-04"
     },
     "coverage": 100,

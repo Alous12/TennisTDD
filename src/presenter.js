@@ -1,15 +1,34 @@
-import sumar from "./sumador";
+import TennisScorer from "./tennisScore.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const scoreDiv = document.getElementById("score-div");
+const player1Btn = document.getElementById("player1-btn");
+const player2Btn = document.getElementById("player2-btn");
+const resetBtn = document.getElementById("reset-btn");
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+let tennisScorer = new TennisScorer();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+function updateScore() {
+  scoreDiv.textContent = tennisScorer.showScore();
+}
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+player1Btn.addEventListener("click", () => {
+  if (!tennisScorer.showScore().includes("wins")) {
+    tennisScorer.player1Scores();
+    updateScore();
+  }
 });
+
+player2Btn.addEventListener("click", () => {
+  if (!tennisScorer.showScore().includes("wins")) {
+    tennisScorer.player2Scores();
+    updateScore();
+  }
+});
+
+resetBtn.addEventListener("click", () => {
+  tennisScorer = new TennisScorer();
+  updateScore();
+});
+
+// Inicializa marcador al cargar
+updateScore();
