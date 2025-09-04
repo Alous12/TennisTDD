@@ -17,10 +17,22 @@ class TennisScorer {
         }
         else
         {
-            if (this.player1Points > this.player2Points)
+            if(this.player1Points - this.player2Points === 2)
             {
-                result = "Advantage Player 1";
+                result = "Player 1 wins";
             }
+            else 
+            {
+                    if (this.player1Points > this.player2Points)
+                    {
+                        result = "Advantage Player 1";
+                    }
+                    else
+                    {
+                        result = "Advantage Player 2";
+                    }
+            }
+            
         }
 
     }

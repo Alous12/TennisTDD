@@ -78,4 +78,29 @@ describe("Tennis Score", () => {
     expect(tennisScorer.showScore()).toEqual("Advantage Player 1");
   });
 
+  it("Deberia mostrar el marcador Advantage Player 2 cuando el jugador 2 anota un punto despues de Deuce", () => {
+    const tennisScorer = new TennisScorer();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    expect(tennisScorer.showScore()).toEqual("Advantage Player 2");
+  });
+
+  it("Deberia mostrar el marcador Player 1 wins cuando el jugador 1 anota dos puntos despues de Deuce", () => {
+    const tennisScorer = new TennisScorer();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    expect(tennisScorer.showScore()).toEqual("Player 1 wins");
+  });
+
 });

@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0457b7b501dc646ab5c84043f743c159f1b389f2",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-04T12:20:26.000Z",
       "message": "feat: agregar condicion en caso de que player 1 marque despues de deuce y muestre advantage",
-      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+      "url": "https://github.com/Alous12/TennisTDD/commit/0457b7b501dc646ab5c84043f743c159f1b389f2"
     },
     "stats": {
       "total": 20,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-04T12:26:54.000Z",
+      "message": "feat: agregar condicion en caso de que player 1 gane despues de marcar 2 puntos despues de deuce",
+      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 41,
+      "additions": 39,
+      "deletions": 2,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
