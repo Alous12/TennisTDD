@@ -40,4 +40,12 @@ describe("Tennis Score", () => {
     expect(tennisScorer.showScore()).toEqual("Love - 30");
   });
 
+  it("Deberia mostrar el marcador Love - 40 cuando el jugador 2 anota tres puntos", () => {
+    const tennisScorer = new TennisScorer();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    expect(tennisScorer.showScore()).toEqual("Love - 40");
+  });
+
 });
