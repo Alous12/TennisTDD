@@ -133,17 +133,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5938c982ac63de62c166242466f26749bb251292",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-04T12:03:30.000Z",
       "message": "feat: agregar clase que permita controlar los puntos del jugador 2 cuando marca 3 puntos",
-      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+      "url": "https://github.com/Alous12/TennisTDD/commit/5938c982ac63de62c166242466f26749bb251292"
     },
     "stats": {
       "total": 15,
       "additions": 15,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-04T12:08:42.000Z",
+      "message": "Refactor: deshacerce de varios condicionalesy aumentar por un criterio",
+      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 63,
+      "additions": 15,
+      "deletions": 48,
       "date": "2025-09-04"
     },
     "coverage": 100,
