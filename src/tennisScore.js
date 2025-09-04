@@ -8,7 +8,19 @@ class TennisScorer {
     const scoreNames = ["Love", "15", "30", "40"];
     const p1 = scoreNames[this.player1Points] ;
     const p2 = scoreNames[this.player2Points] ;
-    return `${p1} - ${p2}`;
+    let result = "";
+    if (this.player1Points >= 3 && this.player2Points >= 3)
+    {
+        if (this.player1Points === this.player2Points)
+        {
+            result = "Deuce";
+        }
+    }
+    else
+    {
+        result = `${p1} - ${p2}`;
+    }
+    return result;
   }
 
   player1Scores() {

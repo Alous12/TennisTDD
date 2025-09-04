@@ -48,4 +48,22 @@ describe("Tennis Score", () => {
     expect(tennisScorer.showScore()).toEqual("Love - 40");
   });
 
+  it("Deberia mostrar el marcador 15 - 15 cuando ambos jugadores anotan un punto", () => {
+    const tennisScorer = new TennisScorer();
+    tennisScorer.player1Scores();
+    tennisScorer.player2Scores();
+    expect(tennisScorer.showScore()).toEqual("15 - 15");
+  });
+
+  it("Deberia mostrar el marcador Deuce cuando ambos jugadores anotan tres puntos", () => {
+    const tennisScorer = new TennisScorer();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    expect(tennisScorer.showScore()).toEqual("Deuce");
+  });
+
 });

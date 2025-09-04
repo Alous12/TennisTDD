@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "09cc9eb997eefc01854557acf15d9a4850a01624",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-04T12:08:42.000Z",
       "message": "Refactor: deshacerce de varios condicionalesy aumentar por un criterio",
-      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+      "url": "https://github.com/Alous12/TennisTDD/commit/09cc9eb997eefc01854557acf15d9a4850a01624"
     },
     "stats": {
       "total": 63,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-04T12:17:35.000Z",
+      "message": "feat: agregar condicion en caso de que ambos esten 40 - 40 mostrando deuce",
+      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 31,
+      "deletions": 1,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
