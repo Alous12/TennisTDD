@@ -66,4 +66,16 @@ describe("Tennis Score", () => {
     expect(tennisScorer.showScore()).toEqual("Deuce");
   });
 
+  it("Deberia mostrar el marcador Advantage Player 1 cuando el jugador 1 anota un punto despues de Deuce", () => {
+    const tennisScorer = new TennisScorer();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player1Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player2Scores();
+    tennisScorer.player1Scores();
+    expect(tennisScorer.showScore()).toEqual("Advantage Player 1");
+  });
+
 });

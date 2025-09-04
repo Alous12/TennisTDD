@@ -15,6 +15,14 @@ class TennisScorer {
         {
             result = "Deuce";
         }
+        else
+        {
+            if (this.player1Points > this.player2Points)
+            {
+                result = "Advantage Player 1";
+            }
+        }
+
     }
     else
     {

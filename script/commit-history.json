@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b165984f2650b0265dff392b2fd35cf186f72c02",
     "author": "Alous12",
     "commit": {
       "date": "2025-09-04T12:17:35.000Z",
       "message": "feat: agregar condicion en caso de que ambos esten 40 - 40 mostrando deuce",
-      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+      "url": "https://github.com/Alous12/TennisTDD/commit/b165984f2650b0265dff392b2fd35cf186f72c02"
     },
     "stats": {
       "total": 32,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Alous12",
+    "commit": {
+      "date": "2025-09-04T12:20:26.000Z",
+      "message": "feat: agregar condicion en caso de que player 1 marque despues de deuce y muestre advantage",
+      "url": "https://github.com/Alous12/TennisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 20,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
